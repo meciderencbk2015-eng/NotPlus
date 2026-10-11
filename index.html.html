@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NotPlus | Not Tutma Uygulaması</title>
+    <meta
+      name="description"
+      content="NotPlus, sol menü, not detayları, arka plan seçenekleri ve kalıcı depolama ile çalışan modern bir not uygulamasıdır."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <div class="brand">NotPlus</div>
+        <div class="nav-links">
+          <a href="#features">Özellikler</a>
+          <a href="#screenshot">Görünüm</a>
+          <a href="#publish">Yayın</a>
+        </div>
+      </nav>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <span class="badge">Java Swing + Kalıcı Notlar</span>
+          <h1>Notlarını yönet, sabitle ve sakla.</h1>
+          <p>
+            Sol tarafta not listesi, sağ tarafta detay görünümü, arka plan değiştirme,
+            ses seçenekleri ve bilgisayar kapanıp açıldığında bile kaybolmayan veriler.
+          </p>
+          <div class="actions">
+            <a class="primary" href="#features">Özellikleri Gör</a>
+            <a class="secondary" href="#publish">GitHub Pages ile Yayınla</a>
+          </div>
+        </div>
+
+        <div class="hero-card" id="screenshot">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="window-body">
+            <aside class="sidebar-demo">
+              <div class="demo-header">Notlar</div>
+              <div class="demo-search">Ara...</div>
+              <div class="demo-item active">Yapılacaklar</div>
+              <div class="demo-item">Alışveriş</div>
+              <div class="demo-item">Fikirler</div>
+            </aside>
+            <main class="editor-demo">
+              <div class="demo-title">Yapılacaklar</div>
+              <div class="demo-tag">İş</div>
+              <div class="demo-body">
+                - Raporu hazırla<br />
+                - Toplantıya git<br />
+                - Maili gönder
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="features container" id="features">
+        <h2>Temel Özellikler</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Sol Menü</h3>
+            <p>Notları hızlıca tarar, sabitlersin ve arayarak bulursun.</p>
+          </article>
+          <article>
+            <h3>Detay Paneli</h3>
+            <p>Not başlığı, kategori ve içeriği tek ekranda düzenlersin.</p>
+          </article>
+          <article>
+            <h3>Kalıcı Depolama</h3>
+            <p>Bilgisayar kapansa bile veriler kayıtlı kalır.</p>
+          </article>
+          <article>
+            <h3>Arka Plan Seçenekleri</h3>
+            <p>Varsayılan, koyu, mavi ve lavanta temalarıyla deney yaparsın.</p>
+          </article>
+          <article>
+            <h3>Ses Ayarları</h3>
+            <p>Kaydetme sırasında küçük ses geri bildirimi ekleyebilirsin.</p>
+          </article>
+          <article>
+            <h3>Sabitleme</h3>
+            <p>Önemli notları üstte tutarak iş akışını kolaylaştırırsın.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="publish container" id="publish">
+        <h2>Siteye Yayın</h2>
+        <p>
+          Bu sayfa GitHub Pages veya herhangi bir statik hosting servisinde yayınlanmaya hazırdır.
+          Sadece proje klasöründeki <strong>site</strong> klasörünü sunucuya yüklemeniz yeterlidir.
+        </p>
+        <ol>
+          <li>GitHub üzerinde bir depo oluştur.</li>
+          <li>Bu klasör içeriğini repoya yükle.</li>
+          <li>GitHub Pages üzerinden <strong>main</strong> veya <strong>site</strong> dalını yayınla.</li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
